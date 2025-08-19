@@ -10,6 +10,8 @@
     "postinstall": "prisma generate"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.0.1",
+    "@prisma/adapter-neon": "^6.14.0",
     "@prisma/client": "^6.14.0",
     "@vercel/postgres": "^0.10.0",
     "next": "15.4.7",
